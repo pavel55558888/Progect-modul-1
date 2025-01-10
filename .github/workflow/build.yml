@@ -1,12 +1,6 @@
-name: actions
+name: actions_build
 
-on:
-  pull_request:
-    branches:
-      - '*'
-  push:
-    branches:
-      - 'master'
+on: [push]
 
 jobs:
   build:
